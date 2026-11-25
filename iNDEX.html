@@ -2,34 +2,32 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SolChuva</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
+  <header> <!-- é a barra de navegação -->
     <nav class="navbar">
-      <a href="#" class="brand">
-       <img src="logo/solchuva.svg" alt="Logo do Sol Chuva">
-       <h1>Sol Chuva</h1>
-  </a>
+      <div class="brand">
+        <img src="logo/solchuva.svg" alt="Logo do Sol Chuva">
+        <h1>Sol Chuva</h1>
+      </div>
 
-  <ul class="nav-links">
-
-     <li><a href="#agora">Agora</a></li>
-     <li><a href="#previsao">Previsão</a></li>
-     <li><a href="#cidades">Cidades</a></li>
-     <li><a href="#sobre">Sobre</a></li>
-
+      <ul class="nav-links">
+        <li><a href="#agora">Agora</a></li>
+        <li><a href="#previsao">Previsão</a></li>
+        <li><a href="#cidades">Cidades</a></li>
+        <li><a href="#sobre">Sobre</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <p>O tempo certo onde você estiver</p>
+    <input type="search" placeholder="Digite o nome de uma cidade…" list="lista-cidades">
+    <datalist id="lista-cidades"></datalist>
   </main>
 
   <footer>
